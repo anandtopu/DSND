@@ -10,7 +10,7 @@
 6. [Licensing and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
-The Jupyter notebook in this project is based on Python 3.6.4. You will need packages such as numpy, pandas, matplotlib, pycountry_convert to run this notebook. The package pycountry_convert is used to convert country names to continent names.<br>
+The Jupyter notebook in this project is based on Python 3.7.1. You will need packages such as numpy, pandas, matplotlib, pycountry_convert, jupytab,seaborn to run this notebook. The package pycountry_convert is used to convert country names to continent names.<br>
 After downloading the repository to your local machine, you will need to unzip the data.zip file before running the Stack_Overflow_survey_project.ipynb file. (I have to zip the dataset because it is too big.)
 <br>
 The file structure should be as follows:
