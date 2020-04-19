@@ -44,22 +44,22 @@ To find out the most popular programming language, I used the survey data of the
 To find out the most popular IDE, I only used the survey data of the recent four years. This is because the survey data in Year 2015 doesn't include information about IDE.</br>
 To find out the relationship between higher education and salary I had used 2019 data only as the 
 ###### Salary 
-The average salary calculation only include full time developers.</br>
-The salary difference between countries are so big. It doesn't make sense to calculate the average salary of professional software developers for the whole world. Since we have data from more than 170 countries and dependent territories, it also does not make sense to calculate the average salary for every country. So I added a column named 'continent', and calculated the average salary based on different continents.</br>
+The average salary calculation only includes full-time developers.</br>
+The salary difference between countries is so big. It doesn't make sense to calculate the average salary of professional software developers for the whole world. Since we have data from more than 170 countries and dependent territories, it also does not make sense to calculate the average salary for every country. So I added a column named 'continent' and calculated the average salary based on different continents.</br>
 ###### Missing values
-Because we have a very large dataset and only a small fraction of data has no salary information, so I removed the rows where salary information are missing.</br>
+Because we have a very large dataset and only a small fraction of data has no salary information, so I removed the rows where salary information is missing.</br>
 ###### Incorrect values
-When I examining the dataset in the data assessment step, I observed many full time developer have salary of 0, while others have salary of 10^30 dollars! These are obviously incorrect. So I decided to only include salaries within 0.1 - 0.9 quantile range for the average salary calculation. I believe this is reasonable.</br>
-###### Figure generation
-The two figures related to salary is generated with matplotlib. The other two figures are generated using Tableau.
+When I examining the dataset in the data assessment step, I observed many full-time developers have a salary of 0, while others have a salary of 10^30 dollars! These are obviously incorrect. So I decided to only include salaries within 0.1 - 0.9 quantile range for the average salary calculation. I believe this is reasonable.</br>
+###### Visualization
+The two visuals related to salary is generated with matplotlib. The other visuals are generated using Tableau.
 
 ## Conclusions <a name="conclusions"></a>
 1.The most popular programming languages are JavaScript, HTML/CSS and SQL.
 2.The most popular IDEs are Visual Studio, Notepad++ and sublime.
-3.North American developers have the highest average salary and relatively high salary increase rate.
+3.North American developers have the highest average salary and relatively high salary increase rate. Asian Developers have highest increase in salary.
 4.Professionals with advanced degrees are clearly earning more than those with only High School degree with the same years of Coding Experience However, as the years of experience increase, the difference becomes smaller. 
 
-More details of this analysis can be found [here](https://medium.com/@anand.goud.2020/stack-overflow-survey-analysis-db1c40602919).
+Blog [here](https://medium.com/@anand.goud.2020/stack-overflow-survey-analysis-db1c40602919).
 
 ## Licensing and Acknowledgements <a name="Licensing"></a>
 Thanks Stack Overflow for making the survey data
