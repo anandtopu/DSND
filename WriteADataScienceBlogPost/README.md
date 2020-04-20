@@ -14,12 +14,12 @@ After downloading the repository to your local machine, you will need to unzip t
 <br>
 The file structure should be as follows:
 > repository/  
-&emsp;&emsp;Stack_Overflow_survey_project.ipynb  
-&emsp;&emsp;data.zip 
-&emsp;&emsp;stackoverflow_ide.twb  
-&emsp;&emsp;stackoverflow_programming languages.twb  
-&emsp;&emsp;IDE.xlsx  
-&emsp;&emsp;language.xlsx  
+&emsp;&emsp;Stack_Overflow_survey_project.ipynb
+&emsp;&emsp;data.zip
+&emsp;&emsp;stackoverflow_ide.twb
+&emsp;&emsp;stackoverflow_programming languages.twb
+&emsp;&emsp;IDE.xlsx
+&emsp;&emsp;language.xlsx
 &emsp;&emsp;Stack_Overflow_Survey_Analysis.html
 &emsp;&emsp;README.md
 
