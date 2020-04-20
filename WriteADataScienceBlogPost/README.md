@@ -8,7 +8,7 @@
 3. [File Descriptions](#file)
 4. [Technical Details](#technical)
 5. [Conclusions](#conclusions)
-6. [Git Repo Link]
+6. [Git Repo Link](# Git Repo)
 7. [Licensing and Acknowledgements](#licensing)
 ## Installation <a name="installation"></a>
 The Jupyter notebook in this project is based on Python 3.7.1. You will need packages such as numpy, pandas, matplotlib, pycountry_convert, jupytab,seaborn to run this notebook. The package pycountry_convert is used to convert country names to continent names.<br>
@@ -62,13 +62,9 @@ The two visuals related to salary is generated with matplotlib. The other visual
 
 Blog [here](https://medium.com/@anand.goud.2020/stack-overflow-survey-analysis-db1c40602919).
 
-###### Git repo link
+###### Git Repository:
 https://github.com/anandtopu/udacity_data_scientist_nanodegree/
 
 ## Licensing and Acknowledgements <a name="Licensing"></a>
 Thanks Stack Overflow for making the survey data
 available to the general public.The code in this repository is released under the MIT license. 
-=======
-# udacity_data_scientist_nanodegree
-This is git repo for udacity nanodegree submissions
->>>>>>> c2b5b5e80a9a8be13a93e6eb62fa3f9710477b93
