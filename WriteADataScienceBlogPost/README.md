@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analysis of the Stack Overflow Annual Developer Survey
 
 ## Table of Contents
@@ -7,8 +8,8 @@
 3. [File Descriptions](#file)
 4. [Technical Details](#technical)
 5. [Conclusions](#conclusions)
-6. [Licensing and Acknowledgements](#licensing)
-
+6. [Git Repo Link](# Git Repo)
+7. [Licensing and Acknowledgements](#licensing)
 ## Installation <a name="installation"></a>
 The Jupyter notebook in this project is based on Python 3.7.1. You will need packages such as numpy, pandas, matplotlib, pycountry_convert, jupytab,seaborn to run this notebook. The package pycountry_convert is used to convert country names to continent names.<br>
 After downloading the repository to your local machine, you will need to unzip the data.zip file before running the Stack_Overflow_survey_project.ipynb file. (I have to zip the dataset because it is too big.)
@@ -60,6 +61,9 @@ The two visuals related to salary is generated with matplotlib. The other visual
 4.Professionals with advanced degrees are clearly earning more than those with only High School degree with the same years of Coding Experience However, as the years of experience increase, the difference becomes smaller. 
 
 Blog [here](https://medium.com/@anand.goud.2020/stack-overflow-survey-analysis-db1c40602919).
+
+###### Git Repository:
+https://github.com/anandtopu/udacity_data_scientist_nanodegree/
 
 ## Licensing and Acknowledgements <a name="Licensing"></a>
 Thanks Stack Overflow for making the survey data
